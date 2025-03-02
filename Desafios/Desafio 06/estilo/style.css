@@ -79,14 +79,30 @@ section p {
 .imagem {
     background-color: rgba(48, 46, 46, 0.822);
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.527);
+    background-attachment: fixed;
 }
 
 .imagem > p {
     display: inline-block;
     background-color: rgba(0, 0, 0, 0.514);
     padding: 5px;
+    text-shadow: 1px 1px 0px black;
 }
 
+#imagem01 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../imagens/girasool.jpg);
+
+}
+
+#imagem02{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../imagens/carta.jpg);
+
+}
 
 
 
